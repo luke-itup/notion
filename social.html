@@ -45,48 +45,51 @@
     }
 
     .blog:hover {
-      background-color: #ffbd2f;
+      background-color: #FFB700;
     }
 
     .email:hover {
-      background-color: #23c8c8;
+      background-color: #FFB700;
     }
 
     .facebook:hover {
-      background-color: #4267B2;
+      background-color: #FFB700;
     }
 
     .instagram:hover {
-      background: rgb(241, 102, 217);
-      background: radial-gradient(circle, rgba(241, 102, 217, 1) 10%, rgba(252, 176, 69, 1) 76%, rgba(253, 29, 29, 1) 100%);
+      background-color: #FFB700;
     }
 
     .linkedin:hover {
-      background-color: #0e76a8;
+      background-color: #FFB700;
     }
 
     .twitter:hover {
-      background-color: #26a7de;
+      background-color: #FFB700;
     }
 
     .reddit:hover {
-      background-color: #ff4500;
+      background-color: #FFB700;
     }
 
     .tiktok:hover {
-      background-color: #ff0050;
+      background-color: #FFB700;
     }
 
     .youtube:hover {
-      background-color: #FF0000;
+      background-color: #FFB700;
     }
 
     .pinterest:hover {
-      background-color: #c8232c;
+      background-color: #FFB700;
     }
 
     .telegram:hover {
-      background-color: #2AABEE;
+      background-color: #FFB700;
+    }
+
+    .rail:hover{
+      background-color: #FFB700;
     }
 
     .social {
@@ -108,11 +111,11 @@
 
     <div class="wrapper">
 
-      <!-- Start blog Icon 
+      <!-- Start blog Icon -->
       <div id="blog" onclick="navigate(this.id)" class="social blog">
-        <span class="icon"><i class="fa-solid fa-blog"></i></span>
+        <span class="icon"><i class="fa fa-globe"></i></span>
       </div>
-       End blog Icon -->
+       <!-- End blog Icon -->
 
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social email">
@@ -188,7 +191,7 @@
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
         if (id === "blog")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+          window.open("https://railoncity.com", '_blank').focus(); //Add the url to your blog
 
         else if (id === "email") {
           window.open("mailto:support@railoncity.com", '_blank').focus(); //Add your email after "mailto:""
